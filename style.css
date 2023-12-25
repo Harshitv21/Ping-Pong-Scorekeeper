@@ -1,0 +1,101 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    justify-content: center;
+}
+
+#container {
+    width: 450px;
+    height: 402px;
+    border: 2px solid black;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+#img-container {
+    width: 450px;
+    height: 180px;
+}
+
+#ping-pong {
+    width: 450px;
+    height: 200px;
+}
+
+#title-container {
+    width: 450px;
+    height: 25px;
+}
+
+#content-container {
+    margin-top: 21px;
+    padding-left: 5px;
+}
+
+p {
+    margin-top: 1px;
+}
+
+label {
+    font-weight: 900;
+    font-size: 1.2em;
+}
+
+#title-text {
+    margin-bottom: 0;
+    margin-top: 22px;
+    border-bottom: 1px solid black;
+    padding-left: 5px;
+}
+
+#player1-btn, #player2-btn, #reset-btn {
+    color: white;
+    width: 150px;
+    height: 45px;
+    border: 0;
+    border-radius: 5px;
+    margin-top: 15px;
+    margin-right: 1px;
+}
+
+#player1-btn {
+    margin-left: 3px;
+    background-color: #4bb897;
+    border-radius: 5px 5px 5px 8px; 
+    margin-left: 2px;
+}
+
+#player2-btn {
+    background-color: #3d8bfd;
+}
+
+#reset-btn {
+    background-color: #d64553;
+    margin-right: 1px; 
+    border-radius: 5px 5px 8px; 
+}
+
+.score-player {
+    font-weight: 600;
+    font-size: 1.8em;
+    color: grey;
+}
+
+.score-player:nth-of-type(2) {
+    font-size: 1.5em;
+}
+
+.winning {
+    color: #4dd4ac;
+}
+
+.loser {
+    color: #e35d6a;
+}
+
+#button-container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 0px;
+}
